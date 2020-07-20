@@ -8,6 +8,8 @@
 
 由于习惯了`Maven`的环境配置，`J2EE`的导包配置反而不会了，所以这里使用的框架是`SpringBoot`。通过一个个的单元测试构成整个练习题项目的内容。
 
+放心，这个项目没有加任何其他`JAR`包，估计打了包也不准用。所以就在`Oracle jdk 1.8`环境下很平常的建一个`SpringBoot`项目并复制所有`src/`文件夹下的文件到你的`src/`中就能复刻。
+
 ## 文件结构
 
 主包是`cn.sakebow.study.leetcode`，其中分为三个小包，分别是`easy`、`hard`、`nightmare`和`violence`，前三个分别对应`leetcode`题库中的**简单**、**一般**和**困难**，而最后则是`leetcode`竞赛的内容。
@@ -29,6 +31,8 @@ This project is only for answering questions in `leetcode`, with all the answers
 ## Framework
 
 I'm so familiar with the environment configuration of `Maven` that I forget how to configure in `J2EE`. Therefore, Here comes the `SpringBoot` framework, containing each unit test files.
+
+Easy. This project don't have any other `JAR`s. Also it may be banned. So to reproduce, you can just create a minimal `SpringBoot` project based on `Oracle jdk 1.8` and copy all files in `src/` into your `src/` folder.
 
 ## file structure
 
