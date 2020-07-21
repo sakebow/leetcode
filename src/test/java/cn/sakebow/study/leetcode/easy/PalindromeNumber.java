@@ -19,8 +19,7 @@ public class PalindromeNumber {
 
     private boolean isPalindrome(int x) {
         // 0 - 负数和末尾为0的数绝对不是回文数
-        if (x <ll
-        0 || x % 10 == 0) {
+        if (x < 0 || x % 10 == 0) {
             return false;
         }
         // 1 - 将数字分为两段，一段从后往前退，一段从前往后进，直到前一段小于等于后一段为止
